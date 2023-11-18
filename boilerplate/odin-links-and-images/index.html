@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and images Lesson</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+    <!--<a> is called an anchor element which is defined by wrapping text
+        or another element that we want to be a link -->
+    <!--href="" is what will create the text hyperlinked
+        If we want to open this page in a new tab, we need
+        to include the `target` attribute be default it is set to
+        `_self` which opens in the same tab. A `rel` attribute is used to 
+        describe the relation between the page and the linked document.
+        The `noopener` value is used so the opened link prevents gaining access
+        to the page from where it was opened from.
+        The `noreferrer` value prevents knowing what source or page has a link to it,
+        it also can be used on it's own as it holds `noopener` behaviour
+        -->
+    <a href="https://www.theodinproject.com/about" target="_blank" rel="noopener noreferrer">
+        Link
+    </a>
+    <a href="about.html">
+        <br>About Page</br>
+    </a>
+</body>
+</html>
